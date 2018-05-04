@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "艺似",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#272727",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/mind.png",
+        "selectedIconPath": "images/mindSelected.png",
+        "text": "玩艺"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/meSelected.png",
+        "text": "我"
+      }
+    ]
+  }
+}
