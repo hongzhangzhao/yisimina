@@ -1,0 +1,9 @@
+<!--pages/ networkerror/ networkerror.wxml-->
+
+<view class='box flex_column flex_center'>
+  <view>
+    <image class='err_img' src='../../images/networkerror.png'></image>
+  </view>
+  <view class='err_text'>您的网络好像不太给力呀~</view>
+  <view><button class='refresh_btn' bindtap='gotoPage'>重新加载</button></view>
+</view>
