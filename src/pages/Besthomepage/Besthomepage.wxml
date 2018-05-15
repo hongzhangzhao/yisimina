@@ -1,0 +1,38 @@
+<!--pages/Besthomepage/Besthomepage.wxml -->
+<view class='opcity'>
+<view class='content'></view>
+</view>
+<view class='inspiration-content'>
+<view class='inspiration-head'></view>
+<view class='inspiration-infor'>
+微信用户名<view></view>
+<text class='inspiration-wechat'>上传灵感318 \t \t \t \t \t被点亮9126</text>
+</view>
+</view>
+
+  <view class='classify'>
+
+  <view class='bigImg' bindtap="viewTap">
+  <view class='user-club'>玩艺主题</view>
+  <view class='user-introduce'>灵感21</view>
+
+  </view>
+  <view class='bigImg1'>
+  <view class='user-introduce1'>点亮123.5W</view>
+  </view>
+  </view>
+
+   <view class='classify1'>
+   <view class='bigImg2'><view class='img-introduce1'>点亮0</view></view>
+   </view>
+
+   <view class='classify2'>
+   <view class='bigImg3'><view class='img-introduce1'>点亮0</view></view>
+   <view class='bigImg4'><view class='img-introduce1'>点亮0</view></view>
+   </view>
+
+   <view class='classify3'>
+   <view class='bigImg5'><view class='img-introduce1'>点亮0</view></view>
+   <view class='bigImg5 border'><view class='img-introduce1'>点亮0</view></view>
+   <view class='bigImg5'><view class='img-introduce1'>点亮0</view></view>
+   </view>

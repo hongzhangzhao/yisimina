@@ -19,3 +19,214 @@
 .usermotto {
   margin-top: 200px;
 }
+.Game-player{
+  width: 100%;
+  height:180rpx;
+  background-color: #f4f4f4; 
+}
+.title{
+  color: #FF900F;
+  font-size: 28rpx;
+  line-height: 60rpx;
+  margin-left: 36rpx;
+}
+.Head-portrait{
+  width: 750rpx; 
+  height: 100rpx;
+  overflow-x: scroll;
+  display: flex;
+  white-space: nowrap; 
+  
+}
+
+.Head-portrait li{
+  width: 100rpx;
+  height: 100rpx;
+  display: inline-block;
+  margin-left: 36rpx;
+  background-image: url('http://easeart.cn/medialunbotuapp20184332610wenyi2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; 
+}
+.Head-portrait image{
+  width: 100rpx;
+  height: 100rpx;
+  display: inline-block;
+  margin-left: 36rpx;
+  border-radius: 50%; 
+}
+.weui-grids {
+/* border-top:1rpx solid #d9d9d9;
+border-left:1rpx solid #d9d9d9; */
+width: 100%;
+height: 1000rpx;
+overflow:hidden;
+
+}
+
+.weui-grid {
+   float: left;   
+width:33.333%;
+height:250rpx;
+box-sizing:border-box; 
+border-bottom:1rpx solid #ffffff; 
+}
+.border{
+  border-right:1rpx solid #ffffff;
+}
+.classify{
+  width: 100%;
+  height: 500rpx;
+  position: relative;
+  border-bottom:1rpx solid #ffffff;
+
+}
+  .classify1{
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+}
+ .classify2{
+   position: absolute;
+  top: 250rpx;
+  left: 0rpx;
+} 
+  .classify3{
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+}
+ .classify4{
+   position: absolute;
+  top: 250rpx;
+  right: 0rpx;
+} 
+.weui-grid__icon {
+
+width:249rpx;
+height:249rpx;
+display: inline-block;
+}
+/* .weui-grid__label {
+position: absolute;
+bottom: 5rpx;
+display:block;
+text-align:center;
+color:#000;
+font-size:14px;
+white-space:nowrap;
+text-overflow:ellipsis;
+overflow:hidden;
+
+} */
+
+.bigImg{
+  width: 49.9%;
+  height: 500rpx; 
+  background-image: url('http://easeart.cn/medialunbotuapp20184331902wenzhang2.jpg');
+box-sizing:border-box;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+ position: absolute;
+left: 0rpx;
+top: 0rpx; 
+box-sizing:border-box;
+}
+.bigImg1{
+  width: 49.9%;
+  height: 500rpx; 
+ position: absolute;
+right: 0rpx;
+top: 0rpx; 
+box-sizing:border-box;
+}
+.last{
+  position: relative
+}
+.hide{
+  width: 250rpx;
+  height: 250rpx;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  top: 0rpx;
+  right: 0rpx;
+  
+}
+.board{
+  width: 72rpx;
+  height: 72rpx;
+  margin-top: 89rpx;
+  margin-left: 89rpx;
+}
+.number{
+  color: #F9EF3C;
+  font-size: 32rpx;
+  display: block;
+  text-align: center;
+}
+.user-Head{
+  width: 64rpx;
+  height: 64rpx;
+  background-image: url('http://easeart.cn/medialunbotuapp20184332610wenyi2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15rpx;
+  margin-left: 15rpx;
+  z-index: 999;
+  border: 0.75rpx solid #ffffff;
+
+}
+.user-Head1{
+  width: 64rpx;
+  height: 64rpx;
+  background-image:url('http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 15rpx;
+  bottom: 15rpx;
+  z-index: 999;
+  border: 0.75rpx solid #ffffff;
+
+}
+.user-introduce{
+  width: 270rpx;
+  height: 40rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20rpx;
+  position: absolute;
+  bottom: 25rpx;
+  margin-left: 90rpx;
+  color: #ffffff;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 40rpx;
+  overflow: hidden;
+  font-weight: lighter;
+  text-indent: 15rpx;
+}
+.user-introduce1{
+  width: 160rpx;
+  height: 40rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20rpx;
+  position: absolute;
+  bottom: 25rpx;
+  right: 90rpx;
+  color: #FAF03C;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 40rpx;
+  overflow: hidden;
+  font-weight: lighter;
+  text-indent: 15rpx;
+}

@@ -1,18 +1,20 @@
-// pages/user/user.js
+// pages/image/image.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    img:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    this.setData({
+      img: options.msg
+    })
   },
 
   /**
@@ -62,10 +64,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  Besthomepage: function () {
-    wx.navigateTo({
-      url: '../Besthomepage/Besthomepage'
-    })
-  },
+  }
 })

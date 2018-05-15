@@ -1,1 +1,51 @@
 /* pages/user/user.wxss */
+.user-list{
+  width: 100%;
+  height: 120rpx;
+  border-bottom: 1px solid rgb(245, 245, 245);
+}
+.user-content{
+  width: 92%;
+  height: 90rpx;
+  margin: 0 auto;
+  margin-top: 15rpx;
+}
+.user-img{
+  width: 90rpx;
+  height: 90rpx;
+  /* background-image: url('http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg');
+display: inline-block;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center; */
+border-radius: 50%;
+float: left
+}
+.user-information{
+  width: 130rpx;
+  height: 90rpx;
+  float: left;
+  margin-left: 4%;
+}
+.username{
+  color: #969696;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.usertime{
+  color: #969696;
+  font-size: 20rpx;
+  font-weight: lighter;
+}
+.userdata{
+  width: 200rpx;
+  height: 90rpx;
+  float: right;
+  font-size: 24rpx;
+  color: #969696;
+  line-height: 90rpx;
+}
+.usernumber{
+  color: #FF910F;
+  padding-left: 18rpx;
+}

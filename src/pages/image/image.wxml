@@ -1,0 +1,13 @@
+<!--pages/image/image.wxml-->
+<view class='all'>
+<view class='title'>
+下一步
+</view>
+<image src='{{img}}' mode='aspectFill' class='image' style='filter: grayscale(1);'></image>
+<view class='Filter'>
+<image class='classly' src='{{img}}' mode='aspectFill' ></image>
+<image class='classly' src='../../image/imgSketch.png' mode='aspectFill'></image>
+<image class='classly' src='../../image/imgcrayon.png' mode='aspectFill'></image>
+<image class='classly' src='../../image/imgIllustrations.png' mode='aspectFill'></image>
+</view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/imgdetails/imgdetails.wxml-->
+<view class='all'></view>
+<view class='Bottom-navigation'>
+<text class='usernames'>用户名称</text>
+<view class='user-touxiang' bindtap='Besthomepage'></view>
+<image class='user-deng' src='../../image/play.png'></image>
+<image class='user-liang' src='../../image/dialiang0@2x.png'></image>
+<text class='usernumbers'>点亮235</text>
+</view>
+<view class='my-introduction'>
+<view class='brief'>玩艺描述，万一描述我的描述啊哈哈哈我的哈伦裤i</view>
+<image class='jiantou' src='../../image/jiantou2.png'></image>
+</view>

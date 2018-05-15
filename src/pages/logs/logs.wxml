@@ -1,6 +1,68 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<view class='opcity'>
+<view class='content'></view>
 </view>
+<view class='inspiration-content'>
+<image class='inspiration-head' mode='aspectFill' src='http://easeart.cn/medialunbotuapp20184332610wenyi2.jpg'></image>
+<view class='inspiration-infor'>
+微信用户名<view></view>
+<text class='inspiration-wechat'>上传灵感318 \t \t \t \t \t被点亮9126</text>
+</view>
+</view>
+<view class='top'>
+<view class='tab'>参与</view>
+<view class='tab1'>关注</view>
+</view>
+
+<view class='master'>
+<image class='master-head' mode='aspectFill' src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg'></image>
+<view class='master-name'>玩主名称# 听说你的脑洞很好看，让我看看...</view>
+<view class='master-data'>
+灵感<text>2185</text> / 点亮<text>2345.2万</text>
+<view class='news'>12新灵感</view>
+</view>
+
+</view>
+
+
+  <view class='classify'>
+
+  <image class='bigImg' bindtap="viewTap" mode='aspectFill' src='http://easeart.cn/medialunbotuapp20184331902wenzhang2.jpg'>
+
+  </image>
+  <image class='bigImg1' mode='aspectFill' src='http://easeart.cn/medialunbotuapp20184331902wenzhang2.jpg'>
+  <view class='user-time'>2018-03-12</view>
+  <view class='user-introduce1'>点亮123.5W</view>
+  </image>
+  </view>
+
+   
+
+   <view class='classify3'>
+   <image class='bigImg5' mode='aspectFill' src='http://easeart.cn/medialunbotuapp20184331902wenzhang2.jpg'><view class='user-time'>2018-03-12</view><view class='img-introduce1'>点亮0</view></image>
+   <image class='bigImg5 border' mode='aspectFill' src='http://easeart.cn/medialunbotuapp20184331902wenzhang2.jpg'><view class='user-time'>2018-03-12</view><view class='img-introduce1'>点亮0</view></image>
+   <image class='bigImg5' mode='aspectFill' src='http://easeart.cn/medialunbotuapp20184331902wenzhang2.jpg'><view class='user-time'>2018-03-12</view><view class='img-introduce1'>点亮0</view></image>
+   
+   </view>
+
+   <view class='my'>
+   <text class='my-number'>我参与<text class='number'>4</text>次 / 被点亮<text class='number'>95.7万</text></text>
+   
+    <image class='share' src='../../image/share.png'></image> <view class='yichu' bindtap='remove'>移除灵感</view>
+   </view>
+  <view class="{{status===0?'box':'box1'}}">
+  <text class='title'>移除废弃灵感</text>
+  <view class='status'>
+  <image class='status-img' src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'><image class='flase' src='../../image/flase.png' mode='aspectFill'></image></image>
+  <image class='status-img' src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'><image class='flase' src='../../image/flase.png' mode='aspectFill'></image></image>
+  <image class='status-img' src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'><image class='flase' src='../../image/flase.png' mode='aspectFill'></image></image>
+  <image class='status-img' src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'><image class='flase' src='../../image/flase.png' mode='aspectFill'></image></image>
+  <image class='status-img' src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'><image class='flase' src='../../image/flase.png' mode='aspectFill'></image></image>
+  <image class='status-img' src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'><image class='flase' src='../../image/flase.png' mode='aspectFill'></image></image>
+  <image class='status-img' src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'><image class='flase' src='../../image/flase.png' mode='aspectFill'></image></image>
+  <image class='status-img' src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'><image class='flase' src='../../image/flase.png' mode='aspectFill'></image></image>
+  </view>
+  <view class='bottom'>
+  <button>取消</button><button>确认</button>
+  </view>
+  </view>

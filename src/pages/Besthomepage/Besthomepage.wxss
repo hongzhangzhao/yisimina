@@ -1,0 +1,193 @@
+/* pages/Besthomepage/Besthomepage.wxss */
+.content{
+  width: 100%;
+  height: 270rpx;
+  background-image:url('http://easeart.cn/medialunbotuapp20184332610wenyi2.jpg');
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+filter: blur(6px);
+}
+.opcity{
+  width: 100%;
+  height: 270rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  filter:none;
+}
+.inspiration-content{
+  width: 80%;
+  height: 120rpx;
+  position: absolute;
+  top: 75rpx;
+  left: 60rpx;
+}
+.inspiration-head{
+  width: 120rpx;
+  height: 120rpx;
+  background-image:url('http://easeart.cn/medialunbotuapp20184332610wenyi2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  float: left;
+  margin-right: 60rpx;
+}
+.inspiration-infor{
+  color: #ffffff;
+  float: left;
+  width: 340rpx;
+  height: 120rpx;
+}
+
+.inspiration-wechat{
+  font-size: 28rpx;
+  font-weight: lighter;
+}
+.classify{
+  width: 100%;
+  height: 500rpx;
+  position: relative;
+  border-bottom:1rpx solid #ffffff;
+}
+.bigImg{
+  width: 49.9%;
+  height: 500rpx; 
+  background-image: url('http://easeart.cn/medialunbotuapp20184331902wenzhang2.jpg');
+box-sizing:border-box;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+ position: absolute;
+left: 0rpx;
+top: 0rpx; 
+box-sizing:border-box;
+
+}
+.bigImg1{
+  width: 49.9%;
+  height: 500rpx; 
+  background-image: url('http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+ position: absolute;
+right: 0rpx;
+top: 0rpx; 
+box-sizing:border-box;
+
+}
+.user-introduce{
+  width: 110rpx;
+  height: 30rpx;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 30rpx;
+  margin:  0 auto;
+  margin-top: 395rpx;
+}
+.user-club{
+  width: 100rpx;
+  height: 30rpx;
+  color: #000000;
+  background-color: #FAF03C;
+  border-radius: 20rpx;
+  font-size: 20rpx;
+  text-align: center;
+  line-height: 30rpx;
+  margin:  0 auto;
+  margin-top: 25rpx;
+}
+.user-introduce1{
+   width: 125rpx;
+  height: 30rpx;
+  color: #FAF03C;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20rpx;
+  font-size: 20rpx;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 30rpx;
+  margin:  0 auto;
+  margin-top: 450rpx;
+}
+.classify1{
+  width: 100%;
+  height: 300rpx;
+  border-bottom:1rpx solid #ffffff;
+}
+.bigImg2{
+  width: 100%;
+  height: 300rpx; 
+  background-image:url('http://easeart.cn/medialunbotuapp20184332610wenyi2.jpg');
+box-sizing:border-box;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+}
+.img-introduce1{
+  position: absolute;
+   width: 80rpx;
+  height: 30rpx;
+  color: #FAF03C;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20rpx;
+  font-size: 20rpx;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 30rpx;
+  left: 50%;
+  bottom: 25rpx;
+  margin-left: -40rpx;
+}
+.classify2{
+  width: 100%;
+  height: 300rpx;
+  border-bottom:1rpx solid #ffffff;
+}
+.bigImg3{
+  width: 49.9%;
+  height: 300rpx; 
+  background-image: url('http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+box-sizing:border-box;
+float: left;
+position: relative;
+}
+.bigImg4{
+  width: 49.9%;
+  height: 300rpx; 
+  background-image: url('http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+box-sizing:border-box;
+float: right;
+position: relative;
+}
+.classify3{
+  width: 100%;
+  height: 300rpx;
+  border-bottom:1rpx solid #ffffff;
+}
+.bigImg5{
+  width: 33.3%;
+  height: 300rpx;
+  background-image: url('http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+box-sizing:border-box;
+float: left;
+position: relative;
+}
+.border{
+  border-left: 1rpx solid #ffffff;
+  border-right: 1rpx solid #ffffff;
+}

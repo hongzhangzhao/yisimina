@@ -1,4 +1,4 @@
-// pages/user/user.js
+// pages/Besthomepage/Besthomepage.js
 Page({
 
   /**
@@ -62,10 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  Besthomepage: function () {
-    wx.navigateTo({
-      url: '../Besthomepage/Besthomepage'
-    })
-  },
+  }
 })

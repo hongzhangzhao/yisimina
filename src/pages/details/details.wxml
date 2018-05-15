@@ -1,0 +1,78 @@
+<!--pages/details/details.wxml-->
+<image class='author' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865d20170827142320ES8yh.jpeg' mode='aspectFill'>
+<image class='author-Head' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg' mode='aspectFill'></image>
+<text class='author-Name'>用户名称</text>
+</image>
+<view class='author-introduction'>
+<text class='author-jieshao'>让我看看听说你的脑洞很好看，让我看看...</text>
+<image class='anthor-jiantou' src='../../image/jiantou.png'></image>
+</view>
+<view class='author-introduction1'>
+<text class='author-jieshao'>让我看看听说你的脑洞很好看，让我看看让我看看听说你的脑洞很好看，让我看看让我看看听说你的脑洞很好看，让我看看让我看看听说你的脑洞很好看，让我看看让我看看听说你的脑洞很好看，让我看看让我看看听说你的脑洞很好看，让我看看让我看看听说你的脑洞很好看，让我看看...</text>
+<image class='anthor-jiantou' src='../../image/jiantou1.png'></image>
+</view>
+<view class='user-data'>
+<view class='user-data-left'>他们刚玩过/<text class='user-data-number'>68</text></view>
+<view class='user-data-right'>灵感/<text class='user-data-number'>216</text>点亮/<text class='user-data-number'>745</text></view>
+</view>
+<view class='user-data-head'>
+<image mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg' bindtap="user"></image>
+<image mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg' bindtap="user"></image>
+<image mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg' bindtap="user"></image>
+<image mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg' bindtap="user"></image>
+<image mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg' bindtap="user"></image>
+</view>
+<view class='content'>
+<view class='list' bindtap="imgdetails">
+<image class='list-img' mode='aspectFill' src='../../image/imgcrayon.png'></image>
+<view  class='list-user'>
+<image class='list-userimg' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<text class='list-username'>APP/用户名称</text>
+<text class='list-userstar'>点亮<text class='list-usernumber'>235</text></text>
+</view>
+</view>
+<view class='list' bindtap="imgdetails">
+<image class='list-img' mode='aspectFill' src='../../image/imgcrayon.png'></image>
+<view  class='list-user'>
+<image class='list-userimg' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<text class='list-username'>APP/用户名称</text>
+<text class='list-userstar'>点亮<text class='list-usernumber'>235</text></text>
+</view>
+</view>
+<view class='list' bindtap="imgdetails">
+<image class='list-img' mode='aspectFill' src='../../image/imgcrayon.png'></image>
+<view  class='list-user'>
+<image class='list-userimg' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<text class='list-username'>APP/用户名称</text>
+<text class='list-userstar'>点亮<text class='list-usernumber'>235</text></text>
+</view>
+</view>
+<view class='list' bindtap="imgdetails">
+<image class='list-img' mode='aspectFill' src='../../image/imgcrayon.png'></image>
+<view  class='list-user'>
+<image class='list-userimg' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<text class='list-username'>APP/用户名称</text>
+<text class='list-userstar'>点亮<text class='list-usernumber'>235</text></text>
+</view>
+</view>
+
+
+
+
+</view>
+<image src='../../image/paixuzuixin.png' class='zuizin'></image>
+<image src='../../image/wolaiwan.png' class='play' bindtap="play"></image>
+<image src='../../image/jia.png' class='jia'></image>
+
+<view class="{{status===0?'mask':'mask1'}}" >
+<view class='Close' bindtap="Close">关闭</view>
+<view class='text'>你的脑洞有多大？
+让我们看看...</view>
+<view class='bottom'>
+<view class='sbox'><image src='../../image/photo.png' mode='aspectFill' bindtap="chooseimage"  ></image><text>相册</text></view>
+<view class='sbox1'><image src='../../image/shot.png' mode='aspectFill' bindtap="bindButtonTap"></image><text>拍摄</text></view>
+<view class='sbox'><image src='../../image/Graffiti.png' mode='aspectFill'></image><text>原作涂鸦</text></view>
+</view>
+</view>
+
+<!-- <image src="{{tempFilePaths }}" mode="aspectFill" class='image' />    -->

@@ -1,18 +1,15 @@
 //index.js
 //获取应用实例
 const app = getApp()
-const http = require('../../utils/http.js')
-const util = require('../../utils/util.js')
-const urls = require('../../utils/urls.js')
 
 Page({
   data: {
-    //motto: 'Hello World',
-    //userInfo: {},
-    //hasUserInfo: false,
-    //canIUse: wx.canIUse('button.open-type.getUserInfo')
-
-
+    motto: 'Hello World',
+    title: '活跃玩家',
+    userInfo: {},
+    hasUserInfo: false,
+    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    
   },
   //事件处理函数
   bindViewTap: function() {
@@ -21,8 +18,6 @@ Page({
     })
   },
   onLoad: function () {
-
-    /**
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
@@ -49,9 +44,9 @@ Page({
         }
       })
     }
-     */
-
   },
+ 
+
   getUserInfo: function(e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
@@ -60,24 +55,9 @@ Page({
       hasUserInfo: true
     })
   },
-
-
-  onShareAppMessage: function (res) {
-    var that = this;
-    return {
-      title: '',
-      desc: '',
-      //imageUrl: '',
-      path: '/pages/index/index',
-      success: function (res) {
-        // 转发成功  
-
-        that.shareClick();
-      },
-      fail: function (res) {
-        // 转发失败  
-      }
-    }
-  },
-
+  toast: function () {
+    wx.navigateTo({
+      url: '../details/details'
+    })
+  }
 })

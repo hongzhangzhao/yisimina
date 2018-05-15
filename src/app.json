@@ -1,11 +1,14 @@
 {
   "pages": [
-    "pages/test/test",
     "pages/index/index",
     "pages/logs/logs",
+    "pages/details/details",
+    "pages/imgdetails/imgdetails",
     "pages/user/user",
-    "pages/ networkerror/ networkerror"
-    
+    "pages/inspiration/inspiration",
+    "pages/Besthomepage/Besthomepage",
+    "pages/image/image",
+    "pages/video/video"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,29 +16,21 @@
     "navigationBarTitleText": "艺似",
     "navigationBarTextStyle": "black"
   },
-  "networkTimeout": {
-    "request": 10000,
-    "connectSocket": 10000,
-    "uploadFile": 10000,
-    "downloadFile": 10000
-  },
-  "debug": false,
   "tabBar": {
-    "color": "#dddddd",
-    "selectedColor": "#272727",
+    "color": "#959595",
+    "selectedColor": "#323333",
     "borderStyle": "white",
-    "backgroundColor": "#ffffff",
     "list": [
       {
+        "selectedIconPath": "image/wanyi1.png",
+        "iconPath": "image/wanyi0.png",
         "pagePath": "pages/index/index",
-        "iconPath": "images/mind.png",
-        "selectedIconPath": "images/mindSelected.png",
         "text": "玩艺"
       },
       {
-        "pagePath": "pages/user/user",
-        "iconPath": "images/me.png",
-        "selectedIconPath": "images/meSelected.png",
+        "selectedIconPath": "image/my.png",
+        "iconPath": "image/my0.png",
+        "pagePath": "pages/logs/logs",
         "text": "我的"
       }
     ]

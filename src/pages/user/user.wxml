@@ -1,2 +1,57 @@
 <!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<view class='user-list' style='border-top:1px solid rgb(245, 245, 245)' bindtap="Besthomepage">
+<view class='user-content'>
+<image class='user-img' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<view class='user-information'><text class='username'>用户名称</text><text class='usertime'>201-05-08</text></view>
+<view class='userdata'><text class='usernumber'>1</text>灵感<text class='usernumber'>36</text>点亮</view>
+</view>
+</view>
+<view class='user-list' style='border-top:1px solid rgb(245, 245, 245)' bindtap="Besthomepage">
+<view class='user-content'>
+<image class='user-img' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<view class='user-information'><text class='username'>用户名称</text><text class='usertime'>201-05-08</text></view>
+<view class='userdata'><text class='usernumber'>1</text>灵感<text class='usernumber'>36</text>点亮</view>
+</view>
+</view>
+<view class='user-list' style='border-top:1px solid rgb(245, 245, 245)' bindtap="Besthomepage">
+<view class='user-content'>
+<image class='user-img' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<view class='user-information'><text class='username'>用户名称</text><text class='usertime'>201-05-08</text></view>
+<view class='userdata'><text class='usernumber'>1</text>灵感<text class='usernumber'>36</text>点亮</view>
+</view>
+</view>
+<view class='user-list' style='border-top:1px solid rgb(245, 245, 245)' bindtap="Besthomepage">
+<view class='user-content'>
+<image class='user-img' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<view class='user-information'><text class='username'>用户名称</text><text class='usertime'>201-05-08</text></view>
+<view class='userdata'><text class='usernumber'>1</text>灵感<text class='usernumber'>36</text>点亮</view>
+</view>
+</view>
+<view class='user-list' style='border-top:1px solid rgb(245, 245, 245)' bindtap="Besthomepage">
+<view class='user-content'>
+<image class='user-img' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<view class='user-information'><text class='username'>用户名称</text><text class='usertime'>201-05-08</text></view>
+<view class='userdata'><text class='usernumber'>1</text>灵感<text class='usernumber'>36</text>点亮</view>
+</view>
+</view>
+<view class='user-list' style='border-top:1px solid rgb(245, 245, 245)' bindtap="Besthomepage">
+<view class='user-content'>
+<image class='user-img' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<view class='user-information'><text class='username'>用户名称</text><text class='usertime'>201-05-08</text></view>
+<view class='userdata'><text class='usernumber'>1</text>灵感<text class='usernumber'>36</text>点亮</view>
+</view>
+</view>
+<view class='user-list' style='border-top:1px solid rgb(245, 245, 245)' bindtap="Besthomepage">
+<view class='user-content'>
+<image class='user-img' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<view class='user-information'><text class='username'>用户名称</text><text class='usertime'>201-05-08</text></view>
+<view class='userdata'><text class='usernumber'>1</text>灵感<text class='usernumber'>36</text>点亮</view>
+</view>
+</view>
+<view class='user-list' style='border-top:1px solid rgb(245, 245, 245)' bindtap="Besthomepage">
+<view class='user-content'>
+<image class='user-img' mode='aspectFill' src='http://easeart.cn/mediafb6a83925a9226bc750da775fe24865dFriApr272018135317GMT0800CST132356362915.jpg'></image>
+<view class='user-information'><text class='username'>用户名称</text><text class='usertime'>201-05-08</text></view>
+<view class='userdata'><text class='usernumber'>1</text>灵感<text class='usernumber'>36</text>点亮</view>
+</view>
+</view>

@@ -1,0 +1,2 @@
+<!--pages/video/video.wxml-->
+<video src="{{src}}" class='video'></video>

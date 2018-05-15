@@ -1,7 +1,6 @@
 <!--index.wxml-->
-<!-- 
 <view class="container">
-  <view class="userinfo">
+  <!-- <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
@@ -10,8 +9,107 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+  </view> -->
+  <view class='Game-player'>
+        <text class="title">{{title}}</text>
+        <scroll-view class='Head-portrait' scroll-x>    
+        <image src='http://easeart.cn/medialunbotuapp20184332610wenyi2.jpg' mode='aspectFill'></image>      
+        <image src='http://easeart.cn/medialunbotuapp20184332610wenyi2.jpg' mode='aspectFill'></image>        
+        </scroll-view>
+  </view>
+  <view class='paly-all'>
+  <view class='weui-grids' bindtap="toast">
+  <view class='classify'>
+
+  <image class='bigImg' bindtap="viewTap" src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'>
+  <view class='user-Head'></view>
+  <view class='user-introduce'>听说你的脑洞很好看，让我看看听...</view>
+
+  </image>
+  <image class='bigImg1' src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'>
+  <view class='user-Head1'></view>
+  <view class='user-introduce1'>点亮123.5W</view>
+  </image>
+  </view>
+ 
+  <navigator class="weui-grid" hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+  
+  </navigator>
+  <navigator class="weui-grid border" hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+  </navigator>
+  <navigator class="weui-grid" hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+  
+  </navigator>
+  <navigator class="weui-grid border" hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+ 
+  </navigator>
+  <navigator class="weui-grid " hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+  
+  </navigator>
+  <navigator class="weui-grid last"  hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+  <view class='hide'>
+  <image class='board' src='../../image/caiyu.png'></image>
+  <text class='number'>+210</text>
+  </view>
+  
+  </navigator>
+  
+  </view>
+
+<!-- 3kaishi -->
+<view class='weui-grids' bindtap="toast">
+  <view class='classify'>
+
+  <image class='bigImg' bindtap="viewTap" src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'>
+  <view class='user-Head'></view>
+  <view class='user-introduce'>听说你的脑洞很好看，让我看看听...</view>
+
+  </image>
+  <image class='bigImg1' src='http://easeart.cn/media108347cedab1d27c9c413d7f2c0b6118427201855856PM71FS1154341.jpg' mode='aspectFill'>
+  <view class='user-Head1'></view>
+  <view class='user-introduce1'>点亮123.5W</view>
+  </image>
+  </view>
+ 
+  <navigator class="weui-grid" hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+  
+  </navigator>
+  <navigator class="weui-grid border" hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+  </navigator>
+  <navigator class="weui-grid" hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+  
+  </navigator>
+  <navigator class="weui-grid border" hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+ 
+  </navigator>
+  <navigator class="weui-grid " hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+  
+  </navigator>
+  <navigator class="weui-grid last"  hover-class="weui-grid_active"url="">
+  <image class="weui-grid__icon" src='http://easeart.cn/medialunbotuapp20184332027zuopin3.jpg' mode='aspectFill'></image>
+  <view class='hide'>
+  <image class='board' src='../../image/caiyu.png'></image>
+  <text class='number'>+210</text>
+  </view>
+  
+  </navigator>
+  
+  </view>
+  
+
+
+
+
   </view>
 </view>
--->
-
-<text>Hello 艺似</text>
